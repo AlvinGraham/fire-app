@@ -39,6 +39,8 @@ export default function App() {
           <Route path="/cities" element={<CitiesRanked />}></Route>
           <Route path="/resources" element={<Resources />}></Route>
           <Route path="/community" element={<Community />}></Route>
+          <Route path="/detail" element={<CityDetails />}></Route>{" "}
+          {/* Here for development purposes*/}
         </Routes>
       </PageLayout>
     </BrowserRouter>
