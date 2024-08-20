@@ -1,0 +1,24 @@
+.navbar {
+  height: 43px;
+  width: 983px;
+  flex-shrink: 0;
+  border-radius: 29px;
+}
+
+.nav-links {
+  height: 100%;
+  width: 90%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  mix-blend-mode: normal;
+}
